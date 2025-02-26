@@ -1,11 +1,16 @@
 class parvej2 {
-    int a;
-    void show (){
-        scanner intput =new scanner (system.in);
-        a= input.next ln t ();
-        System.out.println(a);
+    void m1 () {
+    System.out.println("diu");
     }
-    public static void main(String[] args) {
-        parvej2 ob= new parvej1 ();
-        ob.diu ();
+    class parvej3 extends parvej2{
+        void m2 (){
+            System.out.println("cse");
+        } 
+        public static void main(String[] args) {
+            parvej3 ob= new parvej3();
+            ob.m1();
+            ob.m2();
+        }
+    }
+
 }
